@@ -1,0 +1,20 @@
+@import url("./fonts.css");
+
+body {
+  font-family: "Source Serif Pro", Georgia, serif;
+  color: #303030;
+  font-size: 1.125rem;
+}
+
+main {
+  margin: 4em auto;
+  max-width: 38em;
+}
+
+p, ul {
+  line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
