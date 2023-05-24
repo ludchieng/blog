@@ -1,0 +1,50 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: curl -LSfs https://japaric.github.io/trust/install.sh |
+             sh -s --
+             --git cobalt-org/cobalt.rs
+             --crate cobalt
+             --force
+             --target x86_64-unknown-linux-gnu
+             --tag v0.15.0
+
+      - name: Add cargo binaries to PATH
+        run: export PATH="$PATH:~/.cargo/bin"
+
+      - name: Build
+        run: cobalt build
+
+      - uses: a7ul/tar-action@master
+        with:
+          command: c
+          cwd: "./"
+          files: |
+            _site/
+            captain-definition
+          outPath: deploy.tar
+
+      - name: Deploy App to CapRover
+        uses: caprover/deploy-from-github@v1.0.1
+        with:
+          server: '${{ secrets.CAPROVER_SERVER }}'
+          app: '${{ secrets.APP_NAME }}'
+          token: '${{ secrets.APP_TOKEN }}'
