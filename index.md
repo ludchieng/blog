@@ -1,10 +1,11 @@
 ---
-layout: default.liquid
+layout: index.liquid
 ---
-## Blog!
 
 {% for post in collections.posts.pages %}
-#### {{post.title}}
+## {{ post.title }}
 
-[{{ post.title }}]({{ post.permalink }})
+{{ post.excerpt }}
+
+[Lire l'article]({{ post.permalink }})
 {% endfor %}

@@ -6,15 +6,41 @@ body {
   font-size: 1.125rem;
 }
 
+#logo {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
 main {
-  margin: 4em auto;
+  margin-top: 5vh;
+  margin-bottom: 6rem;
+}
+
+header, main {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 38em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 p, ul {
   line-height: 1.4em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+ul {
+  list-style-type: '\2013\ \ ';
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #218FDE;
+  text-decoration: none;
+  border-bottom: dotted 1px #218FDE;
+}
+
+a:hover {
+  border-bottom: solid 1px #218FDE;
 }

@@ -3,9 +3,10 @@ title: Comment Geoguessr a-t-il changé ma façon d'apprendre ?
 published_date: 2023-05-28 19:52:25 +0000
 layout: default.liquid
 is_draft: false
+excerpt: À l'instar de beaucoup d’autres, c’est la période COVID et ses confinements qui me feront passer des heures sur Geoguessr. Créé par le développeur suédois Anton Wallen, le concept du jeu est inventif. Plongé en immersion dans les rues du monde entier, le joueur navigue entre les photographies à 360° pour trouver des indices et deviner sa position géographique.
 ---
 
-Comme pour beaucoup d’autres, c’est la période COVID et ses confinements qui me feront passer des heures sur Geoguessr. Créé par le développeur suédois Anton Wallen, le concept du jeu est inventif. Plongé en immersion dans les rues du monde entier, le joueur navigue entre les photographies à 360° pour trouver des indices et deviner sa position géographique. Chaque manche démarre a un endroit du monde tiré au hasard. La stratégie consiste à se déplacer le long de la route jusqu’à tomber sur des panneaux. Ils apportent des indices précieux comme : la langue parlée, le nom des villes aux alentours, etc. Au fur et à mesure qu’il se déplace, le joueur accumule les informations puis pointe sur une carte l’endroit où il pense se situer.
+À l'instar de beaucoup d’autres, c’est la période COVID et ses confinements qui me feront passer des heures sur Geoguessr. Créé par le développeur suédois Anton Wallen, le concept du jeu est inventif. Plongé en immersion dans les rues du monde entier, le joueur navigue entre les photographies à 360° pour trouver des indices et deviner sa position géographique. Chaque manche démarre a un endroit du monde tiré au hasard. La stratégie consiste à se déplacer le long de la route jusqu’à tomber sur des panneaux. Ils apportent des indices précieux comme : la langue parlée, le nom des villes aux alentours, etc. Au fur et à mesure qu’il se déplace, le joueur accumule les informations puis pointe sur une carte l’endroit où il pense se situer.
 
 Les styles et stratégies de jeu sont variés : 
 
@@ -55,7 +56,7 @@ Voilà un cas simple de raisonnement bayésien. La méthode consiste à tenter d
 
 C’est d’une simplicité déconcertante, et pourtant, peu de personnes raisonnent, par nature, de cette manière. Geoguessr est une bonne excuse pour s’entraîner au bayésianisme. C’est la stratégie la plus efficace pour gagner. Elle permet d’adopter une posture humble : je ne suis jamais sûr à 100% de ma réponse. Cependant, je sais dire pourquoi je privilégie cette hypothèse plutôt qu’une autre. J’ai donc des arguments solides. Néanmoins, j’hésite entre deux réponses. Il me suffit de trouver les bons indices pour réfuter ou corroborer l’une des deux. Dès lors, j’aurai une réponse tangible.
 
-On dit souvent qu’il n’est pas correct d’avoir des préjugés, de façon générale. La méthode bayésienne est curieuse sur ce point. Elle préconise le contraire. Il faut avoir un apriori sur les phénomènes. Sans apriori, il est impossible de formuler des hypothèses, n’est-ce pas ? En revanche, rien n’empêche de s’abstenir lorsqu’on sait que ses préjugés ne sont pas irrécusables. La modestie est le maître-mot.
+On dit souvent qu’il n’est pas correct d’avoir des préjugés, de façon générale. La méthode bayésienne est curieuse sur ce point. Elle préconise le contraire. Il faut avoir un apriori sur les phénomènes. Sans apriori, il est impossible de formuler des hypothèses, n’est-ce pas ? En revanche, rien n’empêche de s’abstenir lorsqu’on sait que ses préjugés ne sont pas irrécusables. La modestie est toujours bienvenue.
 
 La pensée bayésienne a révolutionné ma façon d’apprendre et de raisonner. Évidemment, elle ne garantie pas la vérité, ni le salut. L’incertitude est toujours présente quelque part.
 
