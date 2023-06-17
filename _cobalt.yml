@@ -1,7 +1,7 @@
 
 site:
-  title: Blog de Ludwig
-  description: Ce qui me passe par la tête et qui demeure dans la fenêtre d'Overton se retrouve ici
+  title: ludchieng.fr
+  description: Mon blog personnel
   base_url: https://ludchieng.fr
 posts:
   rss: rss.xml
