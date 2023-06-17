@@ -15,6 +15,7 @@
     </header>
     <main>
       <h1>{{ page.title }}</h1>
+      <p class="publication-date">Publié le {{ page.published_date | date: "%d/%m/%Y" }}</p>
       {{ page.content }}
     </main>
   </body>

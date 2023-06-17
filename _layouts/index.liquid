@@ -13,7 +13,12 @@
       <p class="subtitle">Be excellent to each other,<br /> Party on dudes.</p>
     </header>
     <main>
-      {{ page.content }}
+      {% for post in collections.posts.pages %}
+        <h2>{{ post.title }}</h2>
+        <p class="publication-date">Publié le {{ post.published_date | date: "%d/%m/%Y" }}</p>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.permalink }}">Lire l'article</a>
+      {% endfor %}
     </main>
   </body>
 </html>

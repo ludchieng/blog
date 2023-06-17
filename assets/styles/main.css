@@ -45,3 +45,7 @@ a {
 a:hover {
   border-bottom: solid 1px #218FDE;
 }
+
+.publication-date {
+  font-style: italic;
+}
