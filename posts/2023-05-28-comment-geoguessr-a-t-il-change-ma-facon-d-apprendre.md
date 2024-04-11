@@ -20,7 +20,7 @@ La première fois, c’est déroutant. Comme à chaque fois, d’ailleurs. On ap
 
 Après quelques parties, on prend confiance et quelques claques, aussi. Quand on est sûr d’être aux États-Unis et qu’en réalité, il s’agit de la Nouvelle-Zélande, on remballe son égo.
 
-Jouer en compétition ne laisse pas place à l’erreur. Et il faut alors un raisonnement sans faille. Comment déterminer le pays dans lequel je me trouve ? J’ai des intuitions, mais sans aucune certitude. J’ai des indices mais ils sont tous contradictoires et je ne reconnais pas la langue parlée : slovène, tchèque ou croate ? Diantre, c’est la hess.
+Jouer en compétition ne laisse pas place à l’erreur. Et il faut alors un raisonnement sans faille. Comment déterminer le pays dans lequel je me trouve ? J’ai des intuitions, mais sans aucune certitude. J’ai des indices mais ils sont tous contradictoires et je ne reconnais pas la langue parlée : slovaque, tchèque ou croate ? Diantre, c’est la hess.
 
 Geoguessr m’a appris trois choses :
 
